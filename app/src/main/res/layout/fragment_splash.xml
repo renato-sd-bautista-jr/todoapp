@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
+    android:background="@android:color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.SplashFragment">
@@ -17,8 +18,6 @@
         android:textColor="@color/black"
         android:textSize="60sp"
         android:textStyle="italic|bold"
-        app:layout_constraintBottom_toBottomOF="parent"
-        app:layout_constraintEnd_toEndof="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 

@@ -7,4 +7,6 @@
     <string name="reenter_password">reenter password</string>
     <string name="already_registered">already registered</string>
     <string name="sign_in">sign in</string>
+    <string name="not_registered">not registered</string>
+    <string name="sign_up">sign up</string>
 </resources>
