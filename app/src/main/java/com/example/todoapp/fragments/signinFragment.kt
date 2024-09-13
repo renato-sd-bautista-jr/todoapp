@@ -67,7 +67,7 @@ class signinFragment : Fragment() {
                             // Navigate to the home screen after successful login
                             navControl.navigate(R.id.action_signinFragment_to_homeFragment)
                         } else {
-                            // Show an error message
+
                             Toast.makeText(context, task.exception?.message, Toast.LENGTH_SHORT)
                                 .show()
                         }
